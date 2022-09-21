@@ -3,7 +3,7 @@ import React from 'react';
 import Logo from '../../olx-logo.png';
 import './Signup.css';
 import { useState,useContext } from 'react';
-import {FirebaseContext} from '../../store/firebaseContext'
+import {FirebaseContext} from '../../store/Context'
 import { useHistory } from 'react-router-dom';
 export default function Signup() {
   const history = useHistory()
